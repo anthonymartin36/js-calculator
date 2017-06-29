@@ -2,13 +2,47 @@
   <head>
     <title>JS Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="minesweeper.js"></script>
+    <script src="js-calculator.js"></script>
   </head>
   <body>
-    <div id="message"></div>
-    <div id="notes"></div>
-    <div class="board">
+  <div class="container">
+  <div class="calculatorBody">
+    <div class="calculator">
+  <p id="title">FreeCodeCamp</p>
+  <p id="tagline">electronic calculator</p>
+  <input type="text" value="0" id="answer"></input>
+  <div class="row">
+    <button id='AC' onclick="myFunction(AC)">AC</button>
+    <button id='CE' onclick="myFunction(CE)">CE</button>
+    <button id='percent' onclick="myFunction(percent)">%</button>
 
-    </div>
+  </div>
+  <div class="row">
+    <button id='7' onclick="myFunction(7)">7</button>
+    <button id='8' onclick="myFunction(8)">8</button>
+    <button id='9' onclick="myFunction(9)">9</button>
+    <button id='div' onclick="myFunction(div)">÷</button>
+  </div>
+  <div class="row">
+    <button id='4' onclick="myFunction(4)">4</button>
+    <button id='5' onclick="myFunction(5)">5</button>
+    <button id='6' onclick="myFunction(6)">6</button>
+    <button id='mul' onclick="myFunction(mul)">x</button>
+  </div>
+  <div class="row">
+    <button id='1' onclick="myFunction(1)">1</button>
+    <button id='2' onclick="myFunction(2)">2</button>
+    <button id='3' onclick="myFunction(3)">3</button>
+    <button id='sub' onclick="myFunction(sub)">-</button>
+  </div>
+  <div class="row">
+    <button id='0' onclick="myFunction(0)">0</button>
+    <button id='dot' onclick="myFunction(dot)">.</button>
+    <button id='equ' onclick="myFunction(equ)">=</button>
+    <button id='add' onclick="myFunction(add)">+</button>
+  </div>
+</div>
+</div>
+</div>
   </body>
 </html>
